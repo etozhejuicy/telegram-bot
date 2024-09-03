@@ -5,4 +5,9 @@ export default defineConfig({
     build: {
         outDir: 'docs',
     },
+    resolve: {
+        alias: {
+            fetch: 'whatwg-fetch',
+        },
+    },
 });
