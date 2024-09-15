@@ -1,11 +1,11 @@
 import axios from "axios";
 
-const token = "YOUR_TELEGRAM_BOT_TOKEN";
+const token = "7155676478:AAEjVwCxt3AtnUZL9-3bqxrv4b1Xw2RI52M";
 const api = `https://api.telegram.org/bot${token}`;
 
 axios
   .post(`${api}/setWebhook`, {
-    url: "https://your-github-username.github.io/telegram-bot/", // Update with your GitHub username
+    url: "https://etozhejuicy.github.io/telegram-bot/",
   })
   .then((response) => {
     console.log(response.data);
