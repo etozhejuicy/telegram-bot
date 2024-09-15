@@ -5,4 +5,11 @@ export default defineConfig({
   build: {
     outDir: "docs",
   },
+  server: {
+    headers: {
+      "/assets/*.js": {
+        "Content-Type": "application/javascript",
+      },
+    },
+  },
 });
