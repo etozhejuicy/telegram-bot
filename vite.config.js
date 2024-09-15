@@ -1,13 +1,8 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+import { resolve } from "path";
 
 export default defineConfig({
-    base: '/telegram-bot/',
-    build: {
-        outDir: 'docs',
-    },
-    resolve: {
-        alias: {
-            fetch: 'whatwg-fetch',
-        },
-    },
+  build: {
+    outDir: "docs",
+  },
 });
